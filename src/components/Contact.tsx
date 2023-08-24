@@ -27,12 +27,14 @@ export const Contact = () => {
         message: ''
     });
 
-    const [buttonText, setButtonText] = useState('Send');
-    const [status, setStatus] = useState({});
+    // const [buttonText, setButtonText] = useState('Send');
+    // const [status, setStatus] = useState({});
 
-    const handleSubmit = () => {
+    // const handleSubmit = async (e) => {
+    //     e.preventDefault();
+    //     setButtonText('Sending...');
 
-    }
+    // }
 
     return (
         <section className="contact" id="connect">
@@ -43,7 +45,7 @@ export const Contact = () => {
                     </Col>
                     <Col md={6}>
                         <h2>Get in touch</h2>
-                        <form onSubmit={handleSubmit}>
+                        <form>
                             <Row>
                                 <Col sm={6} className="px-1">
                                     <input
@@ -79,14 +81,14 @@ export const Contact = () => {
                                         value={formDetails.message}
                                         placeholder="Message"
                                         onChange={(e) => onFormUpdate('message', e.target.value)} />
-                                    <button type="submit"><span>{buttonText}</span></button>
+                                    <button type="submit"><span>Send</span></button>
                                 </Col>
-                                {
+                                {/* {
                                     status.message &&
                                     <Col>
                                         <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
                                     </Col>
-                                }
+                                } */}
                             </Row>
                         </form>
                     </Col>
