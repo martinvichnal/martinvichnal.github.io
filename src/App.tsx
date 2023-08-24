@@ -7,14 +7,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavigationBar } from './components/NavigationBar';
 import { Banner } from './components/Banner';
 import { Skills } from './components/Skills';
+import { Projects } from './components/Projects';
 
 // Main App fucntion
 function App() {
   return (
     <div className="App">
-      <NavigationBar></NavigationBar>
+      <NavigationBar />
       <Banner />
-      <Skills></Skills>
+      <Skills />
+      <Projects />
     </div>
   );
 }
