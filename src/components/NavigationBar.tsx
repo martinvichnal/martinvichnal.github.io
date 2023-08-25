@@ -12,7 +12,6 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-
 // Main NavBar function
 export const NavigationBar = () => {
     const [activeLink, setActiveLink] = useState('home');
