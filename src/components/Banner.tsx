@@ -47,7 +47,8 @@ export const Banner = () => {
     }
 
     return (
-        <section className="banner" id="home">
+        // <section className="banner" id="home">
+        <section className="bg-gradient-to-l hover:bg-gradient-to-r">
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
