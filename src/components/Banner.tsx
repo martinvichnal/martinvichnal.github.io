@@ -48,7 +48,7 @@ export const Banner = () => {
 
     return (
         // <section className="banner" id="home">
-        <section className="bg-gradient-to-l md:bg-gradient-to-r from-red-200 to-blue-200">
+        <section className="bg-gradient-to-l md:bg-gradient-to-r from-red-200 to-blue-200 dark:text-white dark:from-red-400 dark:to-blue-400">
             <Container>
                 <Row className="align-items-center">
                     < Col xs={12} md={6} xl={7} >
