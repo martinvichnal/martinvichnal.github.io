@@ -1,4 +1,4 @@
-
+import DarkModeSwitcher from '../components/DarkModeSwitcher';
 
 export const Navbar = () => {
     return (
@@ -53,6 +53,9 @@ export const Navbar = () => {
                             </a>
                         </li>
                     </ul>
+                </div>
+                <div className="flex md:order-2 ">
+                    <DarkModeSwitcher />
                 </div>
             </div>
         </nav>
