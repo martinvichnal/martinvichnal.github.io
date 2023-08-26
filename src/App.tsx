@@ -1,7 +1,11 @@
 import './App.css';
 
-import { Navbar } from './components/Navbar';
-import { Banner } from './components/Banner';
+import Navbar from './components/Navbar';
+import Intro from './components/Intro';
+import Footer from './components/Footer';
+import Analytics from './components/Analytics';
+import Newsletter from './components/Newsletter';
+import Cards from './components/Cards';
 
 
 function App() {
@@ -9,7 +13,11 @@ function App() {
   return (
     <>
       <Navbar />
-      <Banner />
+      <Intro />
+      {/* <Analytics />
+      <Newsletter />
+      <Cards /> */}
+      <Footer />
     </>
   );
 }

@@ -1,9 +1,9 @@
 import DarkModeSwitcher from '../components/DarkModeSwitcher';
 
-export const Navbar = () => {
+const Navbar = () => {
     return (
         // <nav className="fixed w-full z-20 top-0 left-0 border-b bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-600">
-        <nav className="w-full z-20 top-0 left-0 border-b bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-600">
+        <nav className="w-full z-20 top-0 left-0 border-b bg-slate-200 dark:bg-slate-900 border-gray-200 dark:border-slate-900">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <div className="flex md:order-1">
                     <a href="https://www.martinvichnal.com/"
@@ -16,7 +16,7 @@ export const Navbar = () => {
                     </a>
                 </div>
                 <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-                    <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-800 dark:border-gray-700">
+                    <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-slate-200 rounded-lg bg-slate-200 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:border-slate-200 dark:bg-gray-900 md:dark:bg-slate-900 dark:border-slate-900">
                         <li>
                             <a
                                 href="#home"
@@ -62,3 +62,4 @@ export const Navbar = () => {
         </nav>
     )
 }
+export default Navbar;
