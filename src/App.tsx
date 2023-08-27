@@ -2,7 +2,7 @@ import './App.css';
 
 import Navbar from './components/Navbar';
 import Intro from './components/Intro';
-import Footer from './components/Footer';
+import FooterMain from './components/FooterMain';
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
     <>
       <Navbar />
       <Intro />
-      <Footer />
+      <FooterMain />
     </>
   );
 }
