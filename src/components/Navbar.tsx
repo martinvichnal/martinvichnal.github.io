@@ -1,4 +1,4 @@
-import DarkModeSwitcher from "../components/DarkModeSwitcher";
+import DarkModeSwitcher from "../components/DarkModeSwitcher"
 
 const Navbar = () => {
     return (
@@ -73,6 +73,6 @@ const Navbar = () => {
                 </div>
             </div>
         </nav>
-    );
-};
-export default Navbar;
+    )
+}
+export default Navbar

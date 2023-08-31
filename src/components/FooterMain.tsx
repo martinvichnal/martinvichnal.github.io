@@ -1,5 +1,5 @@
-import { Footer } from 'flowbite-react';
-import { BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
+import { Footer } from "flowbite-react"
+import { BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs"
 
 export default function FooterMain() {
     return (
@@ -21,9 +21,7 @@ export default function FooterMain() {
                                 <Footer.Link href="https://martinvichnal.com/Pomodoro">
                                     Pomodoro
                                 </Footer.Link>
-                                <Footer.Link href="#">
-                                    Project
-                                </Footer.Link>
+                                <Footer.Link href="#">Project</Footer.Link>
                             </Footer.LinkGroup>
                         </div>
                         <div>
@@ -76,5 +74,3 @@ export default function FooterMain() {
         </Footer>
     )
 }
-
-

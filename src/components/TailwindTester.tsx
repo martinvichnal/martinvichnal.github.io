@@ -6,20 +6,17 @@ export const TailwindTester = () => {
         <>
             {/* <!-- Begining --> */}
             {/* mt-3: Margin top 3 */}
-            <h1 className="text-center text-lg text-blue-400">
-                Hello
-            </h1>
+            <h1 className="text-center text-lg text-blue-400">Hello</h1>
             <div className="w-full h-10 bg-violet-200 rounded-md my-4 p-2 border-2">
-                <p className="text-center font-mono font-extrabold text-[20px]">A div</p>
+                <p className="text-center font-mono font-extrabold text-[20px]">
+                    A div
+                </p>
             </div>
-
 
             {/* <!-- Layout --> */}
 
             {/* <!-- Fixed --> */}
-            <div className=" fixed w-10 h-10 bg-red-300 top-0">
-                Fixed
-            </div>
+            <div className=" fixed w-10 h-10 bg-red-300 top-0">Fixed</div>
             {/* <!-- Flex --> */}
             {/* justify-end | center stb: adjus the element to center or the end stb */}
             {/* space-x-6: If there are more elements it spaces out by 6 */}
@@ -47,18 +44,30 @@ export const TailwindTester = () => {
             </div>
 
             {/* <!-- Hovers --> */}
-            <button className="my-2 rounded-lg bg-blue-300 px-4 py-2 
+            <button
+                className="my-2 rounded-lg bg-blue-300 px-4 py-2 
             hover:bg-red-300 
             focus:outline-none focus:ring-blue-800 
-            active:bg-red-800">Click me</button>
+            active:bg-red-800"
+            >
+                Click me
+            </button>
 
             {/* <!-- Element ranks --> */}
             <ul className="my-2 space-y-2">
                 <li className="bg-white p-2 first:bg-yellow-600">Item 1</li>
-                <li className="bg-white p-2 first:bg-yellow-600 odd:bg-blue-200 even:bg-green-200">Item 2</li>
-                <li className="bg-white p-2 first:bg-yellow-600 odd:bg-blue-200 even:bg-green-200">Item 3</li>
-                <li className="bg-white p-2 first:bg-yellow-600 odd:bg-blue-200 even:bg-green-200">Item 4</li>
-                <li className="bg-white p-2 first:bg-yellow-600 odd:bg-blue-200 even:bg-green-200">Item 5</li>
+                <li className="bg-white p-2 first:bg-yellow-600 odd:bg-blue-200 even:bg-green-200">
+                    Item 2
+                </li>
+                <li className="bg-white p-2 first:bg-yellow-600 odd:bg-blue-200 even:bg-green-200">
+                    Item 3
+                </li>
+                <li className="bg-white p-2 first:bg-yellow-600 odd:bg-blue-200 even:bg-green-200">
+                    Item 4
+                </li>
+                <li className="bg-white p-2 first:bg-yellow-600 odd:bg-blue-200 even:bg-green-200">
+                    Item 5
+                </li>
             </ul>
 
             {/* <!-- Dark mode --> */}
@@ -71,9 +80,12 @@ export const TailwindTester = () => {
                 </h1>
             </div> */}
             <div className="m-10 rounded-lg bg-white px-6 py-8 shadow-xl ring-1 ring-slate-900/5">
-
-                <h3 className="text-base font-medium tracking-tight text-slate-900">This is a text element</h3>
-                <p className="mt-2 text-sm text-slate-500">This is an even longer p tag element</p>
+                <h3 className="text-base font-medium tracking-tight text-slate-900">
+                    This is a text element
+                </h3>
+                <p className="mt-2 text-sm text-slate-500">
+                    This is an even longer p tag element
+                </p>
 
                 <button
                     id="toggleDark"
@@ -86,7 +98,9 @@ export const TailwindTester = () => {
             </div>
 
             {/* <!-- Custom size --> */}
-            <p className=" text-2xl text-[#973F29] bg-[#00000] p-[16px]">Chestnut color</p>
+            <p className=" text-2xl text-[#973F29] bg-[#00000] p-[16px]">
+                Chestnut color
+            </p>
             {/* Added a custon color in the tailwind config file */}
             {/* 
             theme: {
@@ -100,9 +114,7 @@ export const TailwindTester = () => {
             {/* <p className=" text-2xl text-chestnut bg-[#00000] p-[16px]">Chestnut color</p> */}
 
             {/* Adding custom component in config */}
-            <div className="card">
-
-            </div>
+            <div className="card"></div>
             {/* 
             @layer components {
                 .card {
