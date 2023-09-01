@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.e3f08225.css",
-    "main.js": "/static/js/main.c668da70.js",
+    "main.css": "/static/css/main.028ed84c.css",
+    "main.js": "/static/js/main.8b033e3d.js",
     "static/media/door.jpg": "/static/media/door.20b0869497693bfe22b2.jpg",
     "static/media/feels.png": "/static/media/feels.a11f84418374a988bcc2.png",
     "static/media/PomodoroCover.png": "/static/media/PomodoroCover.f15ada1fda07fe4d92d7.png",
     "index.html": "/index.html",
-    "main.e3f08225.css.map": "/static/css/main.e3f08225.css.map",
-    "main.c668da70.js.map": "/static/js/main.c668da70.js.map"
+    "main.028ed84c.css.map": "/static/css/main.028ed84c.css.map",
+    "main.8b033e3d.js.map": "/static/js/main.8b033e3d.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3f08225.css",
-    "static/js/main.c668da70.js"
+    "static/css/main.028ed84c.css",
+    "static/js/main.8b033e3d.js"
   ]
 }
