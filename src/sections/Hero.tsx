@@ -6,7 +6,11 @@ const Hero = () => {
     const [text, setText] = useState("")
     const [delta, setDelta] = useState(300 - Math.random() * 100)
     const [index, setIndex] = useState(1)
-    const toRotate = ["Electrical Engineer", "Software Engineer", "IoT creator"]
+    const toRotate = [
+        "an Electrical Engineer",
+        "a Software Engineer",
+        "an IoT creator",
+    ]
     const period = 2000
 
     useEffect(() => {
@@ -47,7 +51,7 @@ const Hero = () => {
     }
 
     return (
-        <div className=" bg-slate-100 text-black dark:text-white dark:bg-slate-800">
+        <div className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container bg-bkg text-content">
             <div className="w-full h-screen mx-auto text-center flex flex-col justify-center">
                 <h1 className="md:text-6xl sm:text-4xl text-3xl font-bold md:py-3">
                     Hello, there.
@@ -57,10 +61,10 @@ const Hero = () => {
                         I'm Martin Vichnál
                     </p>
                 </div>
-                <p className="font-bold py-4 text-xl md:text-4xl text-slate-600 dark:text-slate-400">
-                    I'm a(n) {text}
+                <p className="font-bold py-4 text-xl md:text-4xl text-accent-1">
+                    I'm {text}
                 </p>
-                <p className="font-bold p-2 text-green-700 dark:text-green-500">
+                <p className="font-bold p-2 text-accent-2">
                     Wellcome to my portfolio
                 </p>
             </div>
