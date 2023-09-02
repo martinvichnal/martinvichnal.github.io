@@ -1,5 +1,5 @@
-import pomodoroImage from "../assets/PomodoroCover.png"
-import portfolioImage from "../assets/feels.png"
+import pomodoroImage from "../assets/PomodoroCardCover.png"
+import portfolioImage from "../assets/PortfolioCardCover.png"
 import smartLampImage from "../assets/door.jpg"
 
 import ProjectsCard from "../components/ProjectsCard"
@@ -51,7 +51,7 @@ const Projects = () => {
             </div>
             <div
                 id="projectGrid"
-                className="flex flex-wrap justify-center gap-14"
+                className="flex flex-wrap justify-evenly gap-14"
             >
                 {projectObj
                     .filter((project) =>
