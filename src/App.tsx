@@ -20,10 +20,7 @@ function App() {
             <section id="navbar">
                 <Navbar />
             </section>
-            <section
-                id="home"
-                className="padding w-full h-screen bg-bkg text-content"
-            >
+            <section id="home">
                 <Hero />
             </section>
             <section id="projects" className="padding">
