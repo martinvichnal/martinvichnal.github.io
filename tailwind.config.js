@@ -23,11 +23,13 @@ module.exports = {
             "4xl": ["48px", "58px"],
             "8xl": ["96px", "106px"],
         },
-        fontFamily: {
-            sans: ["Graphik", "sans-serif"],
-            serif: ["Merriweather", "serif"],
-        },
         extend: {
+            fontFamily: {
+                palanquin: ["Palanquin", "sans-serif"],
+                montserrat: ["Montserrat", "sans-serif"],
+                sans: ["Graphik", "sans-serif"],
+                serif: ["Merriweather", "serif"],
+            },
             colors: {
                 accent: {
                     1: "hsl(var(--color-accent1) / <alpha-value>)",
@@ -42,6 +44,17 @@ module.exports = {
                 },
                 cBkg: "hsl(var(--color-cBkg) / <alpha-value>)",
                 cContent: "hsl(var(--color-cContent) / <alpha-value>)",
+
+                "coral-red": "#FF6452",
+                "slate-gray": "#6D6D6D",
+                "pale-blue": "#F5F6FF",
+                "white-400": "rgba(255, 255, 255, 0.80)",
+            },
+            boxShadow: {
+                "3xl": "0 10px 40px rgba(0, 0, 0, 0.1)",
+            },
+            screens: {
+                wide: "1440px",
             },
             backgroundImage: {
                 // hero: "url('assets/images/collection-background.svg')",

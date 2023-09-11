@@ -8,8 +8,6 @@
 // https://huemint.com/back-gradient-4/#palette=fef6f8-d6972d-db6a1a-b1380f-653825
 // www.colorhexa.com/2b2b2a
 
-import { useState } from "react"
-
 import Navbar from "./sections/Navbar"
 import Hero from "./sections/Hero"
 import Aboutme from "./sections/Aboutme"
@@ -18,17 +16,20 @@ import FooterMain from "./sections/FooterMain"
 
 function App() {
     return (
-        <main className="relative">
+        <main className="">
             <section id="navbar">
                 <Navbar />
             </section>
-            <section id="home" className="">
+            <section
+                id="home"
+                className="padding w-full h-screen bg-bkg text-content"
+            >
                 <Hero />
             </section>
-            <section id="projects" className="">
+            <section id="projects" className="padding">
                 <Projects />
             </section>
-            <section id="aboutme" className="">
+            <section id="aboutme" className="padding">
                 <Aboutme />
             </section>
             <FooterMain />

@@ -40,19 +40,14 @@ export const projectObj = [
 
 const Projects = () => {
     return (
-        <div className="bg-bkg text-content h-screen">
-            <div className="py-10 mx-10 pb-10">
-                <h1 className="text-4xl font-bold mb-2 tracking-tight">
-                    Projects
-                </h1>
-                <p className="text-lg mb-2 tracking-tight">
+        <div className="">
+            <div className="">
+                <h1 className="">Projects</h1>
+                <p className="">
                     Here are some of my projects. You can filter them by tags.
                 </p>
             </div>
-            <div
-                id="projectGrid"
-                className="flex flex-wrap justify-evenly gap-14"
-            >
+            <div id="projectGrid" className="">
                 {projectObj
                     .filter((project) =>
                         project.tags.some((tag) => filterTags.includes(tag))
@@ -74,6 +69,37 @@ const Projects = () => {
 }
 
 export default Projects
+
+// <div className="bg-bkg text-content h-screen">
+//     <div className="py-10 mx-10 pb-10">
+//         <h1 className="text-4xl font-bold mb-2 tracking-tight">
+//             Projects
+//         </h1>
+//         <p className="text-lg mb-2 tracking-tight">
+//             Here are some of my projects. You can filter them by tags.
+//         </p>
+//     </div>
+//     <div
+//         id="projectGrid"
+//         className="flex flex-wrap justify-evenly gap-14"
+//     >
+//         {projectObj
+//             .filter((project) =>
+//                 project.tags.some((tag) => filterTags.includes(tag))
+//             )
+//             .map((filteredProjects) => (
+//                 <ProjectsCard
+//                     key={filteredProjects.title}
+//                     title={filteredProjects.title}
+//                     description={filteredProjects.description}
+//                     image={filteredProjects.image}
+//                     tags={filteredProjects.tags}
+//                     webSource={filteredProjects.webSource}
+//                     gitSource={filteredProjects.gitSource}
+//                 />
+//             ))}
+//     </div>
+// </div>
 
 // Filtering section
 
