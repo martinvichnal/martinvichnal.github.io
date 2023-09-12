@@ -40,14 +40,19 @@ export const projectObj = [
 
 const Projects = () => {
     return (
-        <div className="">
-            <div className="">
-                <h1 className="">Projects</h1>
-                <p className="">
+        <div className="padding bg-bkg w-screen h-full">
+            <div className="flex flex-col items-center justify-center">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-content">
+                    Projects
+                </h1>
+                <p className="mt-6 mb-24 sm:text-lg lg:text-xl text-accent-1">
                     Here are some of my projects. You can filter them by tags.
                 </p>
             </div>
-            <div id="projectGrid" className="">
+            <div
+                id="projectGrid"
+                className="flex flex-wrap justify-evenly gap-14"
+            >
                 {projectObj
                     .filter((project) =>
                         project.tags.some((tag) => filterTags.includes(tag))

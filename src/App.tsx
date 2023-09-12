@@ -23,13 +23,16 @@ function App() {
             <section id="home">
                 <Hero />
             </section>
-            <section id="projects" className="padding">
+            <section id="projects">
                 <Projects />
             </section>
-            <section id="aboutme" className="padding">
+            <section id="aboutme">
                 <Aboutme />
             </section>
-            <FooterMain />
+            <section id="footer">
+                <FooterMain />
+            </section>
+            {/* <ThemeTester /> */}
         </main>
     )
 }

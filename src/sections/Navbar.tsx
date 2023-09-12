@@ -1,21 +1,30 @@
 import DarkModeSwitcher from "../components/DarkModeSwitcher"
 
+// This object contains all navbar items.
+// Object types:
+// title: string
+// link: string
+// target: string
 const navbarObj = [
     {
         title: "Home",
         link: "#home",
+        target: "_self",
     },
     {
         title: "Projects",
         link: "#projects",
+        target: "_self",
     },
     {
         title: "About Me",
         link: "#aboutme",
+        target: "_self",
     },
     {
         title: "Pomodoro",
         link: "/pomodoro",
+        target: "_blank",
     },
 ]
 
@@ -46,6 +55,7 @@ const Navbar = () => {
                                 <li key={navbar.title}>
                                     <a
                                         href={navbar.link}
+                                        target={navbar.target}
                                         className="block py-2 pl-3 pr-4 md:p-0 hover:text-accent-1"
                                     >
                                         {navbar.title}

@@ -52,17 +52,17 @@ const Hero = () => {
 
     return (
         // <div className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 text-content">
-        <div className="padding w-full h-screen bg-bkg relative flex flex-col items-center justify-center">
-            <h1 className="text-3xl font-bold text-content sm:text-4xl md:py-3 md:text-6xl">
+        <div className="padding w-screen h-screen bg-bkg text-content relative flex flex-col items-center justify-center">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-content">
                 Hello, there.
             </h1>
-            <p className="text-xl font-bold text-content sm:text-4xl md:text-5xl">
+            <p className="py-2 text-4xl md:text-5xl lg:text-6xl font-bold text-accent-1">
                 I'm Martin Vichnál
             </p>
-            <p className="text-xl font-bold pt-4 md:text-4xl text-accent-1">
+            <p className="py-4 text-2xl md:text-3xl lg:text-4xl text-content">
                 I'm {text}
             </p>
-            <p className="text-xl font-bold p-2 text-accent-2">
+            <p className="text-xl md:text-2xl lg:text-3xl text-content">
                 Wellcome to my portfolio
             </p>
         </div>
