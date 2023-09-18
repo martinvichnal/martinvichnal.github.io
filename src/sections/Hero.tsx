@@ -52,7 +52,7 @@ const Hero = () => {
 
     return (
         // <div className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 text-content">
-        <div className="padding w-screen h-screen bg-bkg text-content relative flex flex-col items-center justify-center">
+        <div className="pl-60 w-screen h-screen bg-bkg text-content relative flex flex-col items-start justify-center">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-content">
                 Hello, there.
             </h1>
@@ -70,22 +70,3 @@ const Hero = () => {
 }
 
 export default Hero
-
-// <div className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container bg-bkg text-content">
-//     <div className="w-full h-screen mx-auto text-center flex flex-col justify-center">
-//         <h1 className="md:text-6xl sm:text-4xl text-3xl font-bold md:py-3">
-//             Hello, there.
-//         </h1>
-//         <div className="flex justify-center items-center">
-//             <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">
-//                 I'm Martin Vichnál
-//             </p>
-//         </div>
-//         <p className="font-bold py-4 text-xl md:text-4xl text-accent-1">
-//             I'm {text}
-//         </p>
-//         <p className="font-bold p-2 text-accent-2">
-//             Wellcome to my portfolio
-//         </p>
-//     </div>
-// </div>
